@@ -1,0 +1,30 @@
+.centerForm {
+  text-align: center;
+  margin: 20vh 30vw 30vh 30vw;
+}
+.boxForm {
+  width: 80%;
+}
+.boxForm form {
+  display: flex;
+  flex-direction: column;
+}
+.boxForm input {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 1px solid black;
+}
+.centerForm h1 {
+  font-size: 2.5rem;
+}
+.boxForm button {
+  padding: 3%;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.boxForm h2 {
+  margin-top: 5%;
+  color: red;
+}

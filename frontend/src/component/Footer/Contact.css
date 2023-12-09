@@ -1,0 +1,31 @@
+.contaiBackGround {
+  background-color: blue;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 2%;
+  font-size: 0.8em;
+}
+.contaiConcact {
+  font-size: 1.5em;
+  color: white;
+}
+.contaiConcact h2 {
+  font-size: 1.8em;
+}
+.contaiConcact p {
+  font-size: 0.8em;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.contaiConcact input {
+  border: none;
+  border-radius: 5px;
+  margin-right: 1%;
+}
+.contaiConcact button {
+  padding: 1.5% 0.5% 1.5% 0.5%;
+  background-color: #339af0;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}

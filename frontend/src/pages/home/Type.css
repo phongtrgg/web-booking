@@ -1,0 +1,45 @@
+.contaiType {
+  text-align: left;
+}
+.contaiType h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 1.5em;
+}
+.imgType {
+  width: 90%;
+  height: 80%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.contaiFlex {
+  display: flex;
+  margin-top: 2%;
+}
+.contaiFlex h3 {
+  font-size: 0.8em;
+}
+.contaiFlex p {
+  color: rgba(88, 88, 85, 0.674);
+  font-size: 0.8em;
+}
+@media only screen and (max-width: 768px) {
+  .contaiFlex h3 {
+    font-size: 0.8em;
+  }
+  .contaiFlex p {
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contaiFlex {
+    flex-direction: column;
+  }
+  .contaiType {
+    text-align: center;
+  }
+  .item-box {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}

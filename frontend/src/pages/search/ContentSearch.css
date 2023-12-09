@@ -1,0 +1,5 @@
+.box-contai {
+  display: flex;
+  margin-top: 3%;
+  align-items: flex-start;
+}

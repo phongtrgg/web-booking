@@ -1,0 +1,100 @@
+.contaiHotel {
+  text-align: left;
+  width: 100%;
+}
+.contaiHotel h2 {
+  margin-top: 5%;
+  font-size: 1.5em;
+}
+.bigConTaiNer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  line-height: 1em;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+.hotelImg {
+  width: 95%;
+  height: 100%;
+}
+
+.box-content {
+  font-size: 1.2em;
+  text-align: left;
+}
+.box-content h3 {
+  margin-top: 5%;
+}
+.box-content p {
+  margin-top: 5%;
+}
+.box-content a {
+  font-size: 1.2em;
+}
+.conten-hotel {
+  font-size: 0.8em;
+}
+.contenHotel {
+  margin-left: 30%;
+}
+.contenHotel-1 {
+  margin-left: 20%;
+}
+.contenHotel-2 {
+  margin-left: 15%;
+}
+.bigConTaiNer h3 {
+  font-size: 0.8em;
+}
+
+.bigConTaiNer span {
+  margin-left: 2%;
+}
+
+@media only screen and (max-width: 500px) {
+  .contaiHotel h2 {
+    margin-bottom: 10%;
+    font-size: 1.5em;
+  }
+  .contaiHotel {
+    text-align: center;
+  }
+  .bigConTaiNer {
+    flex-direction: column;
+  }
+  .hotelImg {
+    width: 100%;
+  }
+  .imgHotel {
+    margin-left: 0;
+  }
+  .imgHotel-1 {
+    margin-right: 0;
+  }
+  .imgHotel-2 {
+    margin-left: 0;
+  }
+  .imgHotel-3 {
+    margin-left: 0;
+  }
+
+  .contenHotel {
+    margin-left: 0;
+  }
+  .contenHotel-1 {
+    margin-left: 0;
+  }
+  .contenHotel-2 {
+    margin-left: 0;
+  }
+  .smFlex {
+    width: 100%;
+    justify-content: center;
+  }
+  .box-content {
+    margin-bottom: 5%;
+    line-height: 1.5em;
+  }
+}

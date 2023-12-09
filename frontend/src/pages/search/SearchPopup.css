@@ -1,0 +1,50 @@
+.box-1 {
+  background-color: orange;
+  text-align: left;
+  flex: 30%;
+  padding-left: 3%;
+  line-height: 3em;
+  border-radius: 10px;
+  height: auto;
+}
+.box-1 h2 {
+  font-size: 1.8em;
+  color: #495057;
+}
+.box-1 input {
+  border-radius: 5px;
+}
+.boxInput {
+  width: 100%;
+  height: auto;
+  position: relative;
+  line-height: 3em;
+}
+.box-1 label {
+  color: #495057;
+}
+.inputNumber {
+  margin-top: 3%;
+  width: 25%;
+  position: absolute;
+  right: 13%;
+  padding: 1%;
+}
+.inputDes {
+  padding: 5%;
+  width: 90%;
+}
+.inputDate {
+  width: 90%;
+  padding: 3%;
+}
+.box-1 button {
+  background-color: rgb(98, 98, 238);
+  width: 90%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border: none;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  color: white;
+}

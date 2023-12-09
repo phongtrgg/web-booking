@@ -1,0 +1,210 @@
+.boxContentDetail {
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  width: auto;
+  height: auto;
+  margin-top: 5%;
+}
+.address {
+  font-size: 0.6em;
+}
+.price {
+  color: green;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.distance {
+  font-size: 0.8em;
+  color: rgb(92, 92, 240);
+  font-weight: 600;
+}
+.boxContentDetail button:nth-child(1) {
+  background-color: rgb(92, 92, 240);
+  border: none;
+  color: white;
+  padding: 1%;
+  border-radius: 5px;
+  float: right;
+  font-size: 0.6em;
+}
+/* img */
+.boxGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+  grid-auto-rows: 1fr;
+}
+.boxGrid img {
+  width: 95%;
+  height: 95%;
+  margin: 1%;
+  margin-left: 1.2%;
+}
+
+/* // */
+.boxDetailChild {
+  display: flex;
+  font-size: 0.8em;
+  line-height: 1em;
+  margin-top: 3%;
+}
+.child-1 {
+  flex: 70%;
+  padding-right: 3%;
+}
+.child-1 p {
+  line-height: 1.2em;
+  margin-top: 4%;
+  font-size: 0.8em;
+}
+.child-1 h3 {
+  font-size: 1.5em;
+}
+/* // */
+.child-2 {
+  flex: 30%;
+  background-color: #d0ebff;
+  text-align: center;
+}
+.child-2 button {
+  background-color: rgb(92, 92, 240);
+  border: none;
+  color: white;
+  padding: 3% 0 3% 0;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 3%;
+}
+.price-9n {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: left;
+  margin-left: 10%;
+  font-size: 1.5em;
+}
+.price-9n::after {
+  content: " (1 nights)";
+  font-weight: 300;
+}
+.child-2 h4 {
+  margin: 2%;
+  font-size: 1.2em;
+  color: #495057;
+  margin-top: 10%;
+  text-align: left;
+  margin-left: 10%;
+}
+.child-2 .contentChildP {
+  font-size: 0.8em;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 10%;
+}
+@media only screen and (max-width: 1712px) {
+  .child-2 h4 {
+    font-size: 1.1em;
+  }
+}
+@media only screen and (max-width: 1628px) {
+  .child-2 h4 {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 1472px) {
+  .child-2 h4 {
+    font-size: 0.9em;
+  }
+  .contentChildP {
+    font-size: 0.7em !important;
+  }
+  .price-9n {
+    font-size: 1.4em;
+  }
+}
+@media only screen and (max-width: 1333px) {
+  .child-2 button {
+    font-size: 0.9em !important;
+  }
+  .child-2 h4 {
+    font-size: 0.8em;
+  }
+  .child-1 p {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .child-2 button {
+    font-size: 0.8em !important;
+  }
+  .child-2 h4 {
+    font-size: 0.7em;
+  }
+
+  .price-9n {
+    font-size: 1.2em;
+  }
+  .child-1 p {
+    font-size: 0.7em;
+  }
+  .child-1 h3 {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .child-1 {
+    flex: 60%;
+  }
+  .child-1 {
+    flex: 40%;
+  }
+  .child-2 {
+    line-height: 1.6em;
+  }
+  .boxGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .boxContentDetail button:nth-child(1) {
+    margin-top: 3%;
+  }
+  .boxContentDetail h2 {
+    font-size: 0.9em;
+  }
+  .price {
+    font-size: 0.6em;
+  }
+  .distance {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .boxContentDetail button:nth-child(1) {
+    margin-top: 3%;
+    font-size: 0.5em;
+  }
+  .distance {
+    font-size: 0.6em;
+  }
+  .boxGrid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin-bottom: 15%;
+  }
+  .boxDetailChild {
+    flex-direction: column;
+  }
+  .child-1 {
+    margin-bottom: 10%;
+  }
+  .child-1 h3 {
+    font-size: 1.2em;
+  }
+  .child-2 {
+    margin-bottom: 10%;
+  }
+  .child-2 h4 {
+    font-size: 1em;
+  }
+}

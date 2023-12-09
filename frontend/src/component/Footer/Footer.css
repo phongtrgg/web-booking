@@ -1,0 +1,33 @@
+.contai-footer {
+  text-align: left;
+  display: flex;
+  margin-top: 3%;
+  padding-bottom: 3%;
+
+  /* flex-direction: column; */
+}
+.contai-footer div {
+  margin-right: 0;
+  width: 18%;
+  font-size: 0.8em;
+  line-height: 2.8em;
+}
+.contai-footer div:nth-child(3) {
+  margin-left: 2%;
+  margin-right: 7%;
+}
+.contai-footer a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+  .contai-footer div {
+    font-size: 0.6em;
+    display: flex !important;
+    gap: 5%;
+    width: 100%;
+  }
+  .contai-footer {
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+}

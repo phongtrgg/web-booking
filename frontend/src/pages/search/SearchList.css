@@ -1,0 +1,217 @@
+.box-2 {
+  /* background-color: aqua; */
+  flex: 70%;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 2%;
+  height: auto;
+  width: auto;
+}
+.containerSearch2-3 {
+  display: flex;
+  flex: 70%;
+}
+.contenBoxSearchMain {
+  height: 25em;
+  margin-bottom: -5%;
+}
+.boxSearchContentChildren {
+  height: 20em;
+  border: 2px solid #d5d2d2;
+  display: flex;
+  border-radius: 5px;
+}
+/* box flex 1(img) 30% */
+.box-2 img {
+  width: 10em;
+  height: 90% !important;
+  margin-top: 2%;
+  flex: 30%;
+  padding-left: 1%;
+}
+/* box flex 2 45% */
+.flexSearch-2 {
+  flex: 45%;
+  font-size: 0.9em;
+  line-height: 2.8em;
+  padding-left: 2%;
+}
+
+.flexSearch-2 h2 {
+  color: rgb(121, 121, 244);
+  font-size: 1.2rem;
+}
+.searchTag {
+  background-color: green;
+  color: white;
+  width: 40%;
+  padding-left: 2%;
+  border-radius: 5px;
+}
+.searchFreeCancel-1 {
+  font-weight: 900;
+  color: green;
+  font-size: 1rem;
+}
+.searchFreeCancel-2 {
+  color: green;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.flexSearch-2 p:nth-child(4) {
+  font-size: 1rem;
+}
+/* box flex 3 25% */
+.flexSearch-3 {
+  flex: 25%;
+  padding: 1%;
+  line-height: 1.2em;
+}
+.flexSearch-3 div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: stretch;
+  margin-top: 5%;
+}
+.flexSearch-3 h3 {
+  margin-right: 1%;
+}
+.flexSearch-3 div p {
+  background-color: blue;
+  padding: 3%;
+  margin: 0 !important;
+  color: white;
+  font-size: 1rem !important;
+}
+.flexSearch-3 p:nth-child(2) {
+  margin-top: 60%;
+  margin-bottom: -5%;
+  font-size: 1.5rem;
+  text-align: right;
+}
+.flexSearch-3 p:nth-child(3) {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  font-size: 0.8rem;
+  text-align: right;
+  color: rgb(121, 119, 116);
+}
+.flexSearch-3 button {
+  background-color: rgb(98, 98, 238);
+  padding: 10% 15% 10% 15%;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 1780px) {
+  .searchTag {
+    width: 45%;
+  }
+  .flexSearch-2 {
+    line-height: 2.2em;
+  }
+}
+@media only screen and (max-width: 1700px) {
+  .flexSearch-2 {
+    line-height: 2.2em;
+  }
+  .flexSearch-3 p:nth-child(2) {
+    margin-top: 80%;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .flexSearch-2 {
+    font-size: 0.8em;
+  }
+  .flexSearch-3 p:nth-child(3) {
+    font-size: 0.7em;
+  }
+  .flexSearch-3 button {
+    font-size: 0.7em;
+  }
+  .flexSearch-3 p:nth-child(2) {
+    margin-top: 120%;
+  }
+}
+@media only screen and (max-width: 1230px) {
+  .searchTag {
+    width: 55%;
+  }
+  .flexSearch-3 button {
+    font-size: 0.6em;
+  }
+  .flexSearch-3 p:nth-child(3) {
+    font-size: 0.6em;
+  }
+  .flexSearch-3 p:nth-child(2) {
+    margin-top: 130%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .flexSearch-2 {
+    font-size: 0.63em;
+    flex: 80% !important;
+  }
+  .flexSearch-2 h2 {
+    font-size: 1em;
+  }
+  .flexSearch-2 p:nth-child(3) {
+    width: 80%;
+  }
+  .flexSearch-2 p:nth-child(4) {
+    font-size: 0.8em;
+  }
+  .flexSearch-2 p:nth-child(6) {
+    font-size: 0.8em;
+  }
+
+  .box-2 img {
+    width: 7em;
+  }
+  .boxSearchContentChildren {
+    height: 15em;
+  }
+  .contenBoxSearchMain {
+    height: 18em;
+  }
+  .box-1 {
+    font-size: 0.7em;
+    flex: 20% !important;
+  }
+  .flexSearch-3 {
+    font-size: 0.5em;
+  }
+  .flexSearch-3 p:nth-child(2) {
+    font-size: 1.8em;
+    margin-top: 210%;
+  }
+  .flexSearch-3 button {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .boxHidden {
+    display: none;
+  }
+  .boxSearchContentChildren {
+    flex-direction: column;
+  }
+  .box-2 img {
+    width: 100%;
+    height: 50%;
+  }
+  .contenBoxSearchMain {
+    margin-bottom: 80%;
+    padding-bottom: 100%;
+  }
+  .boxSearchContentChildren {
+    height: auto;
+    margin-top: 10%;
+  }
+}
